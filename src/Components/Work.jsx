@@ -9,6 +9,15 @@ export default function Work() {
             ProjectLink: "https://huzaifatodo.netlify.app/",
             desc: "A simple To-Do app built with ReactJS and Firebase.",
         },
+        {
+            imgSrc: "/resume.webp",
+            title: "ReactJS",
+            ProjectLink: "https://milstone-huzaifa-khan.vercel.app/",
+            desc: `A simple Resume builder website with 
+            HTML, CSS, JS, and React.js.`,
+            
+        
+        },
         // Add more work items as needed
     ];
 
