@@ -52,8 +52,9 @@ body {
 .heading-1 {
     @apply max-w-max; /* Tailwind class for max width */
     background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa); /* Gradient background */
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Webkit-specific property */
+    -webkit-text-fill-color: transparent;  
 }
 
 .btn-primary{
