@@ -39,10 +39,10 @@ export default function Skill() {
            
        
         <div className="grid gap-4 sm:gap-6  sm:grid-cols-2 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-            {SkillItems.map((skill,key) => {
+            {SkillItems.map((skill,ind) => {
                 return (
-                    <div className="flex items-center gap-4 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-950 ">
-                    <div key={key}>
+                    <div key={ind} className="flex items-center gap-4 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-950 ">
+                    <div >
                         <img src={skill.imgSrc} width={40} height={40} alt={skill.label} />
                         <h3>{skill.label}</h3>
                         <p >{skill.desc}</p>
